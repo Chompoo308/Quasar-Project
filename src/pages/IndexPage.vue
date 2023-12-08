@@ -15,6 +15,15 @@
         :rules="[ val => val && val.length > 0 || 'Please type something']"
       />
 
+      <q-input
+        filled
+        v-model="姓名"
+        label="你的名字 *"
+        hint="名和姓"
+        lazy-rules
+        :rules="[ val => val && val.length > 0 || '请输入一些内容']"
+      /> *"
+
 <q-input
         filled
         type="number"
